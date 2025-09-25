@@ -12,7 +12,7 @@ BYBIT_FUNDING_URL = "https://api.bybit.com/v5/market/funding/history"
 BYBIT_TICKERS_URL = "https://api.bybit.com/v5/market/tickers"
 
 # Symbols to monitor
-symbols = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "ADAUSDT", "DOTUSDT", "LINKUSDT", "XRPUSDT", "TRXUSDT", "XLMUSDT","BCHUSDT", "LTCUSDT", "TONUSDT",  "ETCUSDT", "POLUSDT"]
+symbols = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "ADAUSDT", "DOTUSDT", "LINKUSDT", "XRPUSDT", "TRXUSDT", "XLMUSDT", "TONUSDT",  "ETCUSDT", "POLUSDT"]
 
 def get_binance_funding(symbol):
     """
